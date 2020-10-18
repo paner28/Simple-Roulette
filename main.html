@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UYF-8" />
+        <title>Simple Roulette With One Minute Timer</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="head_test">Simple Roulette</h1>
+        <div class="main">
+            <canvas id="canvas"></canvas>
+            <div id="labels" class="label"></div>
+        </div>
+        <br>
+        <button id="run">run</button>
+        <button id="stop">stop</button>
+        
+        <!-- <form name="form1">
+            <select name="number" onChange="GetNum()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5</option>
+                <option value="6">5</option>
+                <option value="7">5</option>
+            </select>
+        </form> -->
+
+        <div id="debug" class="debug"></div>
+
+        <p>
+            <input type="button" value="Start" id="startcount" onclick="startShowing();">
+            <input type="button" value="Stop" id="endcount" onclick="stopShowing();">
+        </p>
+        <p id="PassageArea">残り60秒</p>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

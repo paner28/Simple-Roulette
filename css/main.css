@@ -1,0 +1,65 @@
+body {
+  background-color: #fafafa;
+  user-select: none;
+}
+
+.main{
+  display: flex;
+}
+
+canvas {
+  /* width:400px;
+  height:400px; */
+  background-color: #fff;
+  color: rgb(185, 203, 252);
+  margin-right: 10px;
+}
+
+.debug {
+  margin-top: 5px;
+  width: 400px;
+  height: 23px;
+  border: rgb(72, 40, 255) solid 0.6px;
+  text-align: center;
+  padding: 10px;
+}
+
+.head_test {
+  font-family: 'Vollkorn', serif;
+  margin: 30px 0 20px 150px;
+  position:  relative;        /* 位置調整 */
+  font-weight:  normal;       /* 文字の太さ調整 */
+  font-size: 40px;            /* 文字サイズ指定 */
+  text-align:  center;        /* 文字位置指定 */
+  display: inline-block;      /* インラインブロックにする */
+}
+
+.head_test:before {
+  content: '';                /* 空の要素を作る */
+  height: 30px;               /* 高さ指定 */
+  width: 60px;                /* 幅指定 */
+  border: solid 1px #ccc;     /* 枠線指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left:  0;                   /* 位置調整 */
+  top: 0;                     /* 位置調整 */
+  margin:  auto;              /* 位置調整 */
+  z-index: -1;                /* 重なり調整 */
+}
+.head_test:after {
+  content: '';                /* 空の要素を作る */
+  height: 80px;               /* 高さ指定 */
+  width: 80px;                /* 幅指定 */
+  border: solid 1px #ccc;     /* 枠線指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  right:  0;                  /* 位置調整 */
+  bottom:  0;                 /* 位置調整 */
+  margin:  auto;              /* 位置調整 */
+  z-index: -1;                /* 重なり調整 */
+}
+
+.head_test-wrap {
+  padding-bottom:  20px;      /* 余白指定 */
+  text-align:  center;        /* 文字位置指定 */
+}
