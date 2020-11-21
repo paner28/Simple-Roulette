@@ -33,12 +33,13 @@
             name: "label6",
             color: 'rgb(230, 199, 235)',
             weight: 1
-        },
-        {
-            name: "label7",
-            color: ' rgb(185, 203, 252)',
-            weight: 1
         }
+//         ,
+//         {
+//             name: "label7",
+//             color: ' rgb(185, 203, 252)',
+//             weight: 1
+//         }
     ]
     var sum_weight = 0
     var unit_weight = 0
